@@ -35,7 +35,7 @@ const Movie = () => {
           <Typography align="left" variant="h6" gutterBottom component={"h6"}>
             Director: {movie.Director}
           </Typography>
-          <Button variant="contained" onClick={() => navigate("/")}>
+          <Button variant="contained" onClick={() => navigate("/movie-app/")}>
             Go Back
           </Button>
         </div>

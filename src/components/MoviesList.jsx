@@ -14,7 +14,7 @@ const MoviesList = () => {
             {moviesList?.Search?.map((item, index) => (
               <Grid key={index} item>
                 <Card sx={{ maxWidth: "350" }}>
-                  <Link to={`/movie/${item.imdbID}`}>
+                  <Link to={`/movie-app/movie/${item.imdbID}`}>
                     <CardMedia
                       component={"img"}
                       height={"350"}
